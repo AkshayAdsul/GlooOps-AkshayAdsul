@@ -1,0 +1,11 @@
+glooMeshMgmtServer:
+  ports:
+    healthcheck: 8091
+  service:
+    type: LoadBalancer
+glooMeshUi:
+  serviceType: LoadBalancer
+mgmtClusterName: mgmt
+global:
+  cluster: mgmt
+licenseKey: eyJhZGRPbnMiOlt7IkFkZG9uIjowLCJFeHBpcmVzQXQiOjE2ODc2MDUwNTksIkxpY2Vuc2VUeXBlIjoidHJpYWwifSx7IkFkZG9uIjoxLCJFeHBpcmVzQXQiOjE2ODc2MDUwNTksIkxpY2Vuc2VUeXBlIjoidHJpYWwifV0sImV4cCI6MTY4NzYwNTA1OSwiaWF0IjoxNjgzNzE3MDU5LCJrIjoiM25tU05nIiwibHQiOiJ0cmlhbCIsInByb2R1Y3QiOiJnbG9vLW1lc2gtZ2F0ZXdheSJ9.gYNdjeEqbWwCwREN9VGUGqEFSNfwBOmRTup_fiMEmyc
