@@ -5,6 +5,7 @@ metadata:
   namespace: bookinfo-frontends
   labels:
     expose: "true"
+    failover: "true"
 spec:
   hosts:
   - productpage.global

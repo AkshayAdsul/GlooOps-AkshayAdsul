@@ -4,3 +4,5 @@ resources:
 - bookinfo-workspace-settings.yaml
 - routetable-productpage.yaml
 - virtualdestination-productpage.yaml
+- outlier-detection.yaml
+- failover-policy.yaml
